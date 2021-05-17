@@ -15,13 +15,13 @@ public class ReplaceConsonants {
             if (isVowel(s[i])) 
             	continue;
             else {
-                if (s[i] == 'z')
-                    s[i] = 'b';
-                else {
+                //if (s[i] == 'z')
+                  //  s[i] = 'b';
+                //else {
                     s[i] = (char) (s[i] + 1);
-                    if (isVowel(s[i]))
-                        s[i] = (char) (s[i] + 1);
-                }
+                  //  if (isVowel(s[i]))
+                    //    s[i] = (char) (s[i] + 1);
+                //}
             }
         }
         return String.valueOf(s);
